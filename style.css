@@ -1,5 +1,5 @@
 #card{
-    margin: 30px auto;
+    margin: 10px auto;
     width: 314px;
     box-shadow: 1px 1px 20px 5px lightgrey;
     padding:10px;
@@ -11,7 +11,7 @@
 }
 
 #result{
-    width: 307px;
+    width: 306px;
     height: 90px;
     font-weight: bold;
     text-align: end;
