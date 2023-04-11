@@ -35,7 +35,7 @@ $(".btn").click((event) => {
         } else if (event.target.value === "DEL") {
             const lastNewResult = result.val().slice(0, -1);
                   result.val(lastNewResult);
-        } else if (event.target.value === '='){
+        } else if (event.target.value === '=' && result.val() !=='Inavalid Number?' {
                     const newResult = eval(result.val());
                         result.val(newResult);
         }
