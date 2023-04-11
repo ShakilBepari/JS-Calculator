@@ -38,11 +38,7 @@ $(".btn").click((event) => {
         } else if (event.target.value === '='){
                 if(event.target.value === 'Inavalid Number?'){
                     const newResult = eval(result.val());
-                      if(event.target.value !== "="){
                         result.val(newResult);
-                      }else{
-                        result.val('');
-                      }
                 }
         }
   }
