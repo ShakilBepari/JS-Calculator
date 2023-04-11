@@ -1,0 +1,46 @@
+#card{
+    margin: 150px auto;
+    width: 316px;
+    box-shadow: 1px 1px 20px 5px lightgrey;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#card h1{
+    text-align: center;
+}
+
+#result{
+    width: 309px;
+    height: 90px;
+    font-weight: bold;
+    text-align: end;
+    font-size: 26px;
+    margin-right: 2px;
+    padding-right: 5px;
+    box-shadow:  1px 1px 10px 5px lightgray inset;
+    border: none;
+    outline: none;
+}
+.btn{
+    width: 76px;
+    height: 65px;
+    font-size: 16px;
+    margin-top: 4px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(26, 26, 26);
+}
+
+.btn-math{
+    background-color: mediumpurple;
+}
+
+.btn-equl{
+    background-color: orange;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    background-color: red;
+}
